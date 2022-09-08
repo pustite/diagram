@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Население мира</title>
+</head>
+<body>
+    <div class="container">
+        <div class="diagram">
+            <!-- <div class="dynamic-text">Азия - 59.54%</div>
+            <div class="dynamic-text">Африка - 16.37%</div> -->
+            <div class="legend">
+                <h1>Население мира</h1>  
+                <table width="100%">
+                    <tr>
+                        <th>Цвет на диаграмме</th>
+                        <th>Континент</th>
+                        <th>Численность в млн. чел.</th>
+                        <th>% от всего населения Земли</th>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#1144AA" width="10%"></td>
+                        <td width="30%"><div id="asia">Азия</div></td>
+                        <td width="30%">4366</td>
+                        <td width="30%">59.54%</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#FFA700" width="10%"></td>
+                        <td width="30%">Африка</td>
+                        <td width="30%">1200</td>
+                        <td width="30%">16.37%</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#F10026" width="10%"></td>
+                        <td width="30%">Европа</td>
+                        <td width="30%">742</td>
+                        <td width="30%">10.12%</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#4AA329" width="10%"></td>
+                        <td width="30%">Северная Америка</td>
+                        <td width="30%">566</td>
+                        <td width="30%">7.72%</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#D836C4" width="10%"></td>
+                        <td width="30%">Южная Америка</td>
+                        <td width="30%">418</td>
+                        <td width="30%">5.71%</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#6B8FD4" width="10%"></td>
+                        <td width="30%">Австралия и Океания</td>
+                        <td width="30%">39</td>
+                        <td width="30%">0.54%</td>
+                    </tr>
+                    
+                </table>  
+                
+            </div>
+            <svg class="chart" width="438" height="500" viewBox="0 0 500 500" fill="#FFEE73">
+                <rect x="0" y="0" width="70" height="59.54%" fill="#1144AA" />
+                <rect x="73" y="0" width="70" height="16.37%" fill="#FFA700" />
+                <rect x="146" y="0" width="70" height="10.12%" fill="#F10026" />
+                <rect x="219" y="0" width="70" height="7.72%" fill="#4AA329" />
+                <rect x="292" y="0" width="70" height="5.71%" fill="#D836C4" />
+                <rect x="365" y="0" width="70" height="0.74%" fill="#6B8FD4" />
+              </svg>
+        </div>
+    </div>
+</body>
+</html>
